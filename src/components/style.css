@@ -1,0 +1,128 @@
+.todo-app {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1d0808;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .filter-buttons {
+    margin-left: 60px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .filter-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #143642;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-button:hover {
+    background-color: #000000;
+  }
+  
+  .filter-button.active {
+    background-color: #32936F;
+  }
+  
+  .add-todo {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1 1;
+    padding: 10px;
+    border: 1px solid #143642;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: #143642;
+    color: white;
+  }
+
+  
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #2e3e6d;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
+  
+  .todo-list {
+    margin-top: 20px;
+    color: #000000;
+  }
+  /* DataFetch.css */
+
+/* ... (previous styles) */
+
+.todo {
+  background-color: #143642;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Add spacing and padding for ID and todo text */
+.todo .todo-info {
+  flex: 1; /* Expand and fill available space */
+  padding-right: 10px; /* Add right padding between ID and text */
+}
+
+/* Style the ID and todo text */
+.todo .todo-info .todo-id {
+    text-align: left;
+    /* font-weight: 500; */
+    font-size: 15px;
+    color: white;
+}
+
+.todo .todo-info .todo-text {
+  /* margin-top: 5px; */
+  margin-top: 5px;
+  color: white;
+  text-align: start;
+  font-size: 15px; /* Add spacing between ID and text */
+}
+
+/* Add spacing and padding for buttons */
+.todo .todo-buttons {
+  display: flex;
+  gap: 10px; /* Add space between buttons */
+}
+
+.todo button {
+  background-color: #2e3e6d;
+}
+
+.todo button:hover {
+  background-color: #000000;
+}
